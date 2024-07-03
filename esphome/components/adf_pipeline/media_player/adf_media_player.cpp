@@ -228,6 +228,7 @@ void ADFMediaPlayer::on_pipeline_state_change(PipelineState state) {
         }
       } else if (set_new_state(media_player::MEDIA_PLAYER_STATE_IDLE) ){
         publish_state();
+        this->current_track_.reset();
       }
       break;
 
