@@ -6,10 +6,10 @@ substitutions:
   replying_illustration_file: https://github.com/esphome/firmware/raw/main/voice-assistant/casita/replying_320_240.png
   error_illustration_file: https://github.com/esphome/firmware/raw/main/voice-assistant/casita/error_320_240.png
 
-  idle_gnumpi_file: "assets/gnumpi_headset.png"
-  listening_gnumpi_file: "assets/gnumpi_listening.png"
-  playing_music_gnumpi_file: "assets/gnumpi_dj.png"
-  announcing_gnumpi_file: "assets/gnumpi_megaphone.png"
+  idle_gnumpi_file: "https://github.com/sofixa/esphome_audio/tree/esp32-s3-box-3-v2/examples/assets/gnumpi_headset.png"
+  listening_gnumpi_file: "https://github.com/sofixa/esphome_audio/tree/esp32-s3-box-3-v2/examples/assets/gnumpi_listening.png"
+  playing_music_gnumpi_file: "https://github.com/sofixa/esphome_audio/tree/esp32-s3-box-3-v2/examples/assets/gnumpi_dj.png"
+  announcing_gnumpi_file: "https://github.com/sofixa/esphome_audio/tree/esp32-s3-box-3-v2/examples/assets/gnumpi_megaphone.png"
 
   loading_illustration_background_color: "000000"
   idle_illustration_background_color: "000000"
