@@ -2,7 +2,3 @@ wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
   fast_connect: true
-
-  ap:
-    ssid: "${node_name}"
-    password: !secret wifi_password
