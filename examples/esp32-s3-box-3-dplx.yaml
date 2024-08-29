@@ -43,11 +43,11 @@ psram:
 
 external_components:
   - source:
-      #type: git
-      #url: https://github.com/gnumpi/esphome_audio
-      #ref: dev-next
-      type: local
-      path: /Users/siekmann/Privat/Projects/espHome/esphome_audio/esphome/components
+      type: git
+      url: https://github.com/sofixa/esphome_audio
+      ref: esp32-s3-box-3
+      #type: local
+      #path: /Users/siekmann/Privat/Projects/espHome/esphome_audio/esphome/components
 
     components: [ adf_pipeline, i2s_audio ]
 
